@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Basic Bank System</title>
+</head>
+<style type="text/css">
+	body{
+		margin:0;
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: #176;
+	}
+	nav{
+		background-color: #233E8B;
+		height:54px;
+		display:inline-flex;
+		width:100%;
+		position:relative;
+	}
+	.logo{
+		display:inline-flex;
+	}
+	.logo img{
+		border-radius: 50%;	
+	}	
+	.ul1{
+		margin-left:50%;
+		height:54px;
+		display: flex;
+	}
+	a{
+		padding:15px 10px;
+		text-decoration: none;
+		color:#fff;
+		border-right: 1px solid #ccc;
+	}
+	a:hover{
+		background-color: #FFFA;;
+	}
+	.body{
+		background-image: url("Images/pexels.jpg");
+  		width:100%;
+  		background-size: cover;
+  		height:500px;
+  		position:relative;
+	}
+
+	.body .h2{
+		position:absolute;
+		padding:0 5px;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		font-size: 60px;
+		background-color: #fff;
+		opacity:.7;
+		border-radius: 10px;
+		box-shadow:2px 2px 2px blue;
+	}
+</style>
+<body>
+	<nav>
+		<span class="logo">
+					<img src="Images/logo.jpg" style="width:50px;height:50px;margin:2px">
+					<h4 style="width:200px;margin-left:7px;color:#fff">Sparks Bank</h4>
+		</span>
+		<div class="ul1" >
+			<a href="viewcustomer.php" style="border-left: 1px solid #ccc">Home</a>
+			<a href="viewcustomer.php">View Customers</a>
+			<a href="viewcustomer.php">Transaction Record</a>
+		</div>	
+	</nav>
+	<div class="body">
+		<div class="h2">
+		<h5 style="text-align: center;margin-bottom:-80px">Welcome to</h5>
+		<h2>Sparks Bank</h2>
+		</div>	
+	</div>
+<footer style="text-align: center;background-color: white;margin-top:-10px;color:grey">
+        <p>&copy 2021. Made by <b>DEEPAK KUMAR</b> <br> The Sparks Foundation</p>
+      </footer>
+</body>
+</html>
