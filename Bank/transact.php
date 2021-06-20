@@ -49,9 +49,7 @@ if ($con -> connect_errno) {
 	table{
 		position:absolute;
 		width:80%;
-		top:40%;
-		left:50%;
-		transform: translate(-50%,-50%); 
+		margin:auto 9% auto 9%;
 		background-color: lightgrey;
 	}
 	th{
@@ -73,6 +71,7 @@ if ($con -> connect_errno) {
 			<a href="transact.php">Transaction Record</a>
 		</div>	
 	</nav>
+	<h1 style="text-align:center">Transaction History</h1>
 	<table cellspacing="0" cellpadding="10" border="1px">
 		<tr>
 			<th>S.No.</th>
